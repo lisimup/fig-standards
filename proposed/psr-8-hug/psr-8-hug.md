@@ -67,6 +67,27 @@ interface Huggable
      */
     public function hug(Huggable $h);
 }
+
+~~~
+
+### UnHuggableInterface
+
+~~~php
+namespace Psr\Hug;
+
+/**
+ * Defines a unhaggable object.
+ *
+ * There are things on the world you would not want to hug. On top of that there
+ * are people which don't want to be hugged in general.
+ *
+ * There are no methods as there is no interaction.
+ */
+interface UnHuggable
+{
+
+}
+
 ~~~
 
 ~~~php
